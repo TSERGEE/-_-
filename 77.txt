@@ -1,0 +1,5 @@
+program var
+dim a, b, c 
+begin
+    let a EQ 5
+end.

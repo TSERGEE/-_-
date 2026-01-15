@@ -1,0 +1,5 @@
+program var
+dim x %
+begin
+    let y EQ 10
+end.

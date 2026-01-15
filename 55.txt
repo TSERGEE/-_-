@@ -1,0 +1,5 @@
+program var
+dim x %
+begin
+    let x EQ 102b
+end.

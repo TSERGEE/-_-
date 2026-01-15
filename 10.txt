@@ -1,0 +1,7 @@
+program var
+dim x %
+begin
+    if x then
+        output(x)
+    end_else
+end.

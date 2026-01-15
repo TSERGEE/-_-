@@ -1,0 +1,6 @@
+program var
+dim x, y %
+begin
+    let x EQ 10
+    let y EQ x div 3
+end.

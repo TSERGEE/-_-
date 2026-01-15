@@ -1,0 +1,41 @@
+program
+var
+	{* Объявляем переменные одного типа, другого типа не получится, т.к. описание лишь одно в структуре программы *}
+	dim a, b % {* Целые *}
+	{*dim f !*}
+	{*dim a1, b1 $*}
+begin
+	{* Операции *}
+	{* Присваивание без let*}
+	a EQ 10;
+	{* Присваивание c let*}
+	let b EQ a;
+	input(a); {* ввод оператора *}
+	input(a b); {* ввод операторов через пробел *}
+	output(a); {* вывод выражения *}
+	output(a plus b); {* вывод выражения через пробел *}
+	a EQ b;
+	{* фиксированный цикл с составным оператором *}
+	for ( ; ; ) 
+	output(b);
+	for (a EQ 0; a LE 15; a EQ a plus 1) {
+		output(b);
+		b EQ b plus 1;
+	}
+	{* фиксированный цикл с одиночным оператором *}
+	for (a EQ 0; a LE 15; a EQ a plus 1) 
+		output(b);
+	if a GT b then 
+		b EQ 5 
+	end_else;
+	a EQ 1;
+	do while a EQ 1 
+	{
+		b EQ b mult 1;
+		a EQ 2
+	}
+	loop;
+	if a EQ 500 then 
+		a EQ 2 
+	end_else
+end.

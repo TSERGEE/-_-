@@ -1,0 +1,21 @@
+program
+var
+    dim a, b, i %
+    {* Комментарий *}
+begin
+    input(a b);
+
+    let i EQ 102b;
+
+    for ( ; i LT 5 ; i EQ i plus 1 )
+    {
+        a EQ a plus b;
+        output(a)
+    };
+
+    if a GT 10 then
+        output(a)
+    else
+        output(b)
+    end_else
+end.

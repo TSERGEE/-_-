@@ -1,0 +1,19 @@
+program
+var
+    dim p, q $
+
+begin
+    input(p q);
+
+    p EQ p and q;
+
+    if p EQ true then
+        output(p)
+    else
+        output(q)
+    end_else;
+
+    do while p EQ true
+        p = false
+    loop
+end.

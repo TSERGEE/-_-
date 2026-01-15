@@ -1,0 +1,6 @@
+program var
+dim i %
+begin
+    for (i = 0 i LT 10 i eq i plus 1)
+        output(i)
+end.

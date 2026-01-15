@@ -1,0 +1,20 @@
+program
+var
+    dim x, y !
+
+begin
+    input(x y);
+
+    x EQ x div y;
+
+    do while x GT 1.0
+    {
+        output(x);
+        x EQ x div 2.0
+    }
+    loop;
+
+    if x LE 1.0 then
+        output(x)
+    end_else
+end.
